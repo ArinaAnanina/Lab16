@@ -1,0 +1,20 @@
+C:\Users\Арина\source\repos\Lab16(Базы данных)\bin\Debug\Lab16(Базы данных).exe.config
+C:\Users\Арина\source\repos\Lab16(Базы данных)\bin\Debug\Lab16(Базы данных).exe
+C:\Users\Арина\source\repos\Lab16(Базы данных)\bin\Debug\Lab16(Базы данных).pdb
+C:\Users\Арина\source\repos\Lab16(Базы данных)\obj\Debug\Lab16_Базы_данных_.Properties.Resources.resources
+C:\Users\Арина\source\repos\Lab16(Базы данных)\obj\Debug\Lab16(Базы данных).csproj.GenerateResource.cache
+C:\Users\Арина\source\repos\Lab16(Базы данных)\obj\Debug\Lab16(Базы данных).csproj.CoreCompileInputs.cache
+C:\Users\Арина\source\repos\Lab16(Базы данных)\obj\Debug\Lab16(Базы данных).exe
+C:\Users\Арина\source\repos\Lab16(Базы данных)\obj\Debug\Lab16(Базы данных).pdb
+C:\Users\Арина\source\repos\Lab16(Базы данных)\bin\Debug\EntityFramework.dll
+C:\Users\Арина\source\repos\Lab16(Базы данных)\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Арина\source\repos\Lab16(Базы данных)\bin\Debug\EntityFramework.xml
+C:\Users\Арина\source\repos\Lab16(Базы данных)\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Арина\source\repos\Lab16(Базы данных)\obj\Debug\Lab16(Базы данных).csproj.CopyComplete
+C:\Users\Арина\source\repos\Lab16(Базы данных)\obj\Debug\Lab16_Базы_данных_.Form2.resources
+C:\Users\Арина\source\repos\Lab16(Базы данных)\obj\Debug\Lab16_Базы_данных_.Form3.resources
+C:\Users\Арина\source\repos\Lab16(Базы данных)\obj\Debug\Lab16_Базы_данных_.Form4.resources
+C:\Users\Арина\source\repos\Lab16(Базы данных)\obj\Debug\Lab16_Базы_данных_.Form5.resources
+C:\Users\Арина\source\repos\Lab16(Базы данных)\obj\Debug\Lab16_Базы_данных_.Form6.resources
+C:\Users\Арина\source\repos\Lab16(Базы данных)\obj\Debug\Lab16(Базы данных).csproj.AssemblyReference.cache
+C:\Users\Арина\source\repos\Lab16(Базы данных)\obj\Debug\Lab16_Базы_данных_.Form1.resources

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="ModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PersonSet" EntityType="Model.Person" />
+    <EntitySet Name="GenderSet" EntityType="Model.Gender" />
+    <AssociationSet Name="GenderPerson" Association="Model.GenderPerson">
+      <End Role="Gender" EntitySet="GenderSet" />
+      <End Role="Person" EntitySet="PersonSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="GenderId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Gender" Relationship="Model.GenderPerson" FromRole="Person" ToRole="Gender" />
+  </EntityType>
+  <EntityType Name="Gender">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <NavigationProperty Name="Person" Relationship="Model.GenderPerson" FromRole="Gender" ToRole="Person" />
+  </EntityType>
+  <Association Name="GenderPerson">
+    <End Type="Model.Gender" Role="Gender" Multiplicity="1" />
+    <End Type="Model.Person" Role="Person" Multiplicity="*" />
+  </Association>
+</Schema>
